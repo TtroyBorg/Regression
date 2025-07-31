@@ -80,9 +80,6 @@ Each script samples functions from the posterior distribution and visualizes:
 - ±2 standard deviation bands
 - Posterior predictive samples
 
-Example:
-
-![Posterior samples](figures/bayesian_logistic_posterior.png) *(if added)*
 
 ---
 ًReference:
