@@ -1,4 +1,4 @@
-# 🧠 Bayesian Regression Models (Linear & Logistic)
+#  Bayesian Regression Models (Linear & Logistic)
 
 This repository contains simple and clean implementations of **Bayesian Linear Regression** and **Bayesian Logistic Regression**, using both **exact inference** and **Laplace Approximation**.
 
@@ -6,7 +6,7 @@ These examples are written in Python using `NumPy`, `SciPy`, and `Matplotlib`, a
 
 ---
 
-## 📂 Contents
+##  Contents
 
 | File | Description |
 |------|-------------|
@@ -16,7 +16,7 @@ These examples are written in Python using `NumPy`, `SciPy`, and `Matplotlib`, a
 
 ---
 
-## 🔢 Bayesian Linear Regression (Exact)
+##  Bayesian Linear Regression (Exact)
 
 We model the relationship between input \( \mathbf{x} \in \mathbb{R} \) and output \( y \in \mathbb{R} \) using a polynomial basis:
 
@@ -39,7 +39,7 @@ p(\mathbf{w}) = \mathcal{N}(\mathbf{0}, \alpha^{-1} \mathbf{I})
 
 ---
 
-## 🔁 Bayesian Linear Regression (Laplace Approximation)
+##  Bayesian Linear Regression (Laplace Approximation)
 
 Even though linear regression yields an exact Gaussian posterior, we show how to **recover it via Laplace approximation**:
 
@@ -50,7 +50,7 @@ This is a useful bridge to generalized models like logistic regression.
 
 ---
 
-## 🔐 Bayesian Logistic Regression (Laplace)
+## Bayesian Logistic Regression (Laplace)
 
 We consider a binary classification task with:
 
@@ -72,7 +72,7 @@ we approximate it via Laplace:
 
 ---
 
-## 📈 Sampling and Visualization
+##  Sampling and Visualization
 
 Each script samples functions from the posterior distribution and visualizes:
 
@@ -85,10 +85,5 @@ Example:
 ![Posterior samples](figures/bayesian_logistic_posterior.png) *(if added)*
 
 ---
-
-## 🛠 Usage
-
-Install dependencies:
-
-```bash
-pip install numpy matplotlib scipy
+ًReference:
+Bishop, Pattern Recognition and Machine Learning, 2006
